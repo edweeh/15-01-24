@@ -1,0 +1,64 @@
+/* Apply this CSS to your ProductManagement component */
+
+/* Product Management Container */
+.product-management-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Add New Product Form */
+  .add-product-form {
+    margin-bottom: 20px;
+  }
+  
+  .add-product-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .add-product-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .add-product-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-product-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Existing Products List */
+  .existing-products-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .product-item {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .product-item button {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 6px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .product-item button:hover {
+    background-color: #c82333;
+  }
+  
